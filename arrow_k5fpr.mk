@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/lenovo/k5fpr/device_k5fpr.mk)
 
 # Inherit some common LOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_DEVICE := k5fpr
-PRODUCT_NAME := lineage_k5fpr
+PRODUCT_NAME := arrow_k5fpr
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo A7010a48

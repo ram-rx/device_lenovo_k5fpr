@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_k5fpr.mk
+    $(LOCAL_DIR)/arrow_k5fpr.mk
